@@ -1,0 +1,137 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+	margin-top: 4%;
+}
+
+
+/*** Helpers ***/
+
+.mb-0 { margin-bottom: 0px !important; }
+
+.padding-modal { padding: .75rem .3rem .9rem .3rem; }
+
+/* Loading Modal */
+
+#loading_modal { padding: 1rem; }
+
+.spinner-pink, .spinner-pink-only { border-color: #e91e63; }
+
+
+/*** Colors ***/
+
+/* label focus color */
+ .input-field input:focus + label,  .input-field textarea:focus + label {
+   color: #e91e63 !important;
+ }
+
+/* label underline focus color */
+ .input-field input:focus,  .input-field textarea:focus {
+   border-bottom: 1px solid #e91e63 !important;
+   box-shadow: 0 1px 0 0 #e91e63 !important;
+ }
+
+/* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #e91e63 !important;
+ }
+
+
+/*** PAGE Pedidos ***/
+
+/* Card Pedidos */
+
+.card .card-content .row { margin-bottom: 0; }
+.card .card-content { padding: .8rem; }
+
+/*.cabecalho_pedido { margin-bottom: .rem !important;}*/
+
+.codigo_pedido { font-weight: 500; }
+
+.entregue { color: #ff9800 !important; }
+.pago { color: #00c853 !important; }
+
+.data_pedido { 
+	font-style: italic;
+	font-size: .95rem;
+}
+
+.preco_pedido {
+	font-weight: 500;
+	text-align: right;
+}
+
+.item { 
+	font-size: .9rem; 
+	margin-bottom: 0;
+}
+
+.comprador {
+	margin-top: .3rem;
+	font-size: .98rem;
+}
+
+.divider_card {
+	border-top: 1px solid #e2e2e2;
+	margin: .6rem 0 .75rem 0;
+}
+
+
+
+/*** PAGE Adicionar Pedido ***/
+
+.product_qtd_btn {
+	padding: 0 .35rem;
+}
+
+
+/*** Custom Materialize ***/
+
+/* Line 6188 */
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e91e63;
+  -webkit-box-shadow: 0 1px 0 0 #e91e63;
+          box-shadow: 0 1px 0 0 #e91e63;
+}
+
+/* radio button */
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #e91e63;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #e91e63;
+}
+
+/* select */
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #e91e63;
+}
+
+.select-wrapper .caret {
+  fill: #757575;
+}
+
+.collapsible-body {
+	padding: 1rem;
+}
