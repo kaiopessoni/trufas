@@ -1,0 +1,16 @@
+{
+  "lang" : "Portuguese",
+  "name" : "Tia Zê Trufas",
+  "display" : "standalone",
+  "start_url" : "http://kaiopessoni.com/trufas/login/",
+  "short_name" : "Trufas",
+  "theme_color" : "#e93063",
+  "description" : "Gerenciador da Tia Zê Trufas",
+  "orientation" : "portrait",
+  "icons" : [
+      {
+        "src": "http://kaiopessoni.com/trufas/images/favicon.png",
+        "sizes": "128x128"
+      }
+    ]
+}
